@@ -88,15 +88,24 @@ section {
   border: none;         
   background: none;   
 }
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  color: #e0e0e0;
+  margin-top: 20px;
+  border-left: 3px solid #ff0000;
+  padding-left: 15px;
+}
+
 
 
 
 #about {
-  background-color: #8ebfff;
+  background-color: #ffffff;
 }
 
 #projects {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 #contacts {
