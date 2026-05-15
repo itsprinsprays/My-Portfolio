@@ -97,6 +97,7 @@ section {
       border-right: 3px solid black; /* cursor effect */
       width: 0; /* start hidden */
       animation: typing 4s steps(30, end) forwards, blink 0.75s step-end infinite;
+      text-transform: italic;
 }
 
 
@@ -115,6 +116,16 @@ section {
 
 #about {
   background-color: #ffffff;
+}
+
+.about-me {
+  text-align: left;
+  padding: 50px;
+  padding-bottom: 10px;
+  color: #e80000;
+  font-size: 50px;
+  border-bottom: 2px solid #e80000;
+  display: inline-block;
 }
 
 #projects {
