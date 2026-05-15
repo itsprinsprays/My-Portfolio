@@ -12,6 +12,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 
 hr {
   height: 1px;
@@ -77,7 +83,6 @@ section {
 
 .hero h1 {
   font-size: 45px;
-  margin-right: 50px;
 }
 
 .hero img {
@@ -118,16 +123,21 @@ section {
   background-color: #ffffff;
 }
 
-.about-me {
+.about-me h1{
   text-align: left;
-  padding: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 0;
+  padding-top: 0;
   color: #e80000;
-  font-size: 50px;
-  border-bottom: 2px solid #e80000;
+  font-size: 90px;
+  border-bottom: 3px solid #e80000;
   display: inline-block;
 }
 
+.intro {
+  max-width: 50%; 
+  padding-top: 30px;
+  text-align: justify;
+}
 #projects {
   background-color: #000000;
 }
