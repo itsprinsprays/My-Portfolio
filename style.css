@@ -28,13 +28,17 @@ hr {
 
 
 .navbar {
-  background-color: #000000;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-
+    background: rgba(2, 2, 2, 0.8);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -292,7 +296,7 @@ section {
 
 .devicon-canva-original:hover {
   transform: scale(1.2);
-  color: #000000;
+  color: #3893cf;
 }
 
 .devicon-json-plain:hover {
