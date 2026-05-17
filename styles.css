@@ -12,11 +12,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: #000000;
-}
-
 .container {
   width: 90%;
   max-width: 1200px;
@@ -336,10 +331,17 @@ section {
   align-items: flex-start;
 }
 
+.wrapperP a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+
+
 .project1 {
   width: 350px;
   height: 350px;
-  background-color: #ffffff;
+  background-color: #000000;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -349,10 +351,6 @@ section {
 .project1:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  h3 {
-    color: #1960ee;
-    text-decoration: underline;
-  }
 }
     
 .project2 {
@@ -365,22 +363,9 @@ section {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project2:hover {
+.project1:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  h3 {
-    color: #1960ee;
-    text-decoration: underline;
-  }
-}
-
-.project3:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  h3 {
-    color: #1960ee;
-    text-decoration: underline;
-  }
 }
 
 .project3 {
@@ -391,7 +376,6 @@ section {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
 }
 
 .project4{
@@ -403,11 +387,6 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-top: 35px;
-}
-
-.project4:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .tech-use {
