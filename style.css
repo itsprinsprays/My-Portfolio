@@ -427,5 +427,52 @@ section {
 
     
 #contacts {
-  background-color: #293b4d;
+  background-color: #ffffff;
 }
+
+.form-section, .info-section {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      width: 45%;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #c00; /* red accent */
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    textarea {
+      height: 100px;
+    }
+    .btn {
+      margin-top: 15px;
+      background: #c00;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    .info-box {
+      margin-bottom: 20px;
+    }
+    .info-box h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .info-box p {
+      margin: 5px 0;
+    }
