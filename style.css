@@ -135,6 +135,8 @@ section {
 .projects:hover {
   background-color: #ff0000;
   border: 2px solid white;
+  transform: scale(1.2);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .contacts {
@@ -147,12 +149,13 @@ section {
   margin-left: 20px;
   font-size: 18px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .contacts:hover {
   background-color: #ff0000;
   border: 2px solid white;
+  transform: scale(1.2);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 
@@ -178,11 +181,14 @@ section {
   text-align: left;
   padding-bottom: 0;
   padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #e80000;
   font-size: 90px;
   border-bottom: 3px solid #e80000;
   display: inline-block;
 }
+
 
 .skills {
   margin-top: 20px;
