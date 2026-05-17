@@ -430,13 +430,13 @@ section {
   background-color: #ffffff;
 }
 
-.form-section, .info-section {
+.form-section{
       flex: 1;
       background: #fff;
       padding: 20px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 6px;
-      width: 45%;
+      width: 100%;
     }
     h2 {
       margin-bottom: 20px;
@@ -475,4 +475,20 @@ section {
     }
     .info-box p {
       margin: 5px 0;
+    }
+
+.wrapperC {
+  display: inline-flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.info-section {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      margin-left: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      width: 45%;
     }
