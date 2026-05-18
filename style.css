@@ -436,7 +436,7 @@ section {
       padding: 20px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 6px;
-      width: 100%;
+      width: 50%;
     }
     h2 {
       margin-bottom: 20px;
@@ -479,7 +479,7 @@ section {
 
 .wrapperC {
   display: inline-flex;
-  gap: 50px;
+  gap: 30px;
   align-items: flex-start;
 }
 
@@ -490,5 +490,5 @@ section {
       margin-left: 300px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 6px;
-      width: 45%;
+      max-width: 50%;
     }
